@@ -8,8 +8,8 @@ namespace DMailDelivery.Core.Services
 {
     public class EmailService
     {
-        public Sender Sender { get; set; }
-        public Email Email { get; set; }        
+        private Sender Sender { get; set; }
+        private Email Email { get; set; }        
                 
         public EmailService(Sender sender, Email email)
         {
