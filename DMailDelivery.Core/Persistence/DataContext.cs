@@ -10,6 +10,7 @@ namespace DMailDelivery.Core.Persistence
 
         public DbSet<Email> Emails { get; set; }
         public DbSet<Application> Applications { get; set; }
+        public DbSet<Sender> Senders { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
